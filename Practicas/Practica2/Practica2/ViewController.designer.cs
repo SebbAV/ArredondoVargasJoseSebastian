@@ -1,0 +1,29 @@
+// WARNING
+//
+// This file has been generated automatically by Visual Studio to store outlets and
+// actions made in the UI designer. If it is removed, they will be lost.
+// Manual changes to this file may not be handled correctly.
+//
+using Foundation;
+using System.CodeDom.Compiler;
+
+namespace Practica2
+{
+    [Register ("ViewController")]
+    partial class ViewController
+    {
+        [Outlet]
+        UIKit.UITableView tblView { get; set; }
+
+        [Action ("BtnShow_Add:")]
+        partial void BtnShow_Add (Foundation.NSObject sender);
+        
+        void ReleaseDesignerOutlets ()
+        {
+            if (tblView != null) {
+                tblView.Dispose ();
+                tblView = null;
+            }
+        }
+    }
+}
